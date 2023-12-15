@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Links</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="tap">Tap share button to connect me</h3>
+    <div class="menu">
+        <button class="action_btn">
+            <ion-icon name="share-outline"></ion-icon>
+        </button>
+
+        <ul>
+            <li style="--i: 1; --x: -50; --y: -100; --color: var(--fb-color)">
+                <a href="https://www.facebook.com/prathamesh.vattamwar.7/" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li style="--i: 2; --x: 50; --y: -100; --color: var(--insta-color)">
+                <a href="https://www.instagram.com/prathameshpv24/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li style="--i: 3; --x: 100; --y: 0; --color: var(--twitter-color)">
+                <a href="https://twitter.com/prathameshv24" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+            <li style="--i: 4; --x: 50; --y: 100; --color: var(--linkedin-color)">
+                <a href="https://www.linkedin.com/in/prathamesh-vattamwar-483529227/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li style="--i: 5; --x: -50; --y: 100; --color: var(--google-color)">
+                <a href="https://www.snapchat.com/add/patupv2405?share_id=FLh0Uk8YofQ&locale=en-US" target="_blank">
+                    <ion-icon name="logo-snapchat"></ion-icon>
+                </a>
+            </li>
+            <li style="--i: 6; --x: -100; --y: 0; --color: var(--youtube-color)">
+                <a href="https://youtube.com/@WebDeveloperInsights?si=3J7gUJi1tiXqO-pR" target="_blank">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <a href="https://prathameshvattamwar.github.io/portfolio/" target="_blank" class="portfolio">Click Here for My Portfolio</a>
+    <h3>copyright ©2023 Prathamesh</h3>
+
+    <script>
+        const button = document.querySelector('.action_btn');
+        const menu = document.querySelector('.menu');
+
+        button.onclick = function(){
+            menu.classList.toggle('open')
+        }
+    </script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
